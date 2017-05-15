@@ -1,0 +1,16 @@
+.idea
+*.sass
+*.sh
+/demo/
+/spec/
+/typings.json
+/typings/
+/node_modules/
+/.gitignore
+/.npmignore
+/.travis.yml
+
+/systemjs.config.js
+/tsconfig.json
+/tsconfig-build.json
+/gulpfile.ts

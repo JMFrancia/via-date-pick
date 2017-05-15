@@ -1,0 +1,39 @@
+{
+  "name": "via-date-pick",
+  "version": "0.1.0",
+  "author": {
+    "name": "Joe Francia",
+    "email": "jmfrancia86@gmail.com"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node --verbose --junitreport --noColor spec"
+  },
+  "publishConfig":{
+    "registry":"http://10.242.91.68:8081/repository/vmn-npm"
+  },
+  "peerDependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/forms": "^2.0.0",
+    "@angular/http": "^2.0.0",
+    "@angular/platform-browser": "^2.0.0",
+    "@angular/platform-browser-dynamic": "^2.0.0",
+    "@angular/router": "^3.0.2",
+    "typescript": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.38",
+    "@types/node": "^6.0.42",
+    "jasmine-node": "^1.14.5",
+    "jasmine-core": "2.5.2",
+    "jasmine-spec-reporter": "2.5.0",
+    "karma": "1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "ts-node": "1.2.1",
+    "tslint": "^4.0.2"
+  }
+}
